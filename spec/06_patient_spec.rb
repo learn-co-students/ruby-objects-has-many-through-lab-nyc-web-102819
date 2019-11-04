@@ -7,7 +7,7 @@ describe 'Patient' do
     end
   end
 
-  describe '#new_appointment' do
+    describe '#new_appointment' do
     it 'given a doctor and date, creates a new appointment belonging to that patient' do
       doctor_who = Doctor.new('The Doctor')
       hevydevy = Patient.new('Devin Townsend')
